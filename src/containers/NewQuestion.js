@@ -60,4 +60,5 @@ class NewQuestion extends React.Component{
     
 }
 const mapStateToProps =({signUser})=>({ signUser})
+export {NewQuestion};
 export default withRouter(connect(mapStateToProps)(NewQuestion));
