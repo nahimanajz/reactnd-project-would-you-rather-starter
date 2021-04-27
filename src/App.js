@@ -26,7 +26,7 @@ class App extends React.Component {
 
     return (
       <BrowserRouter>   
-      <LoadingBar />
+     
       <header>
         {
       signUser.length &&(
@@ -57,7 +57,7 @@ class App extends React.Component {
     ) 
   }
 }
-const mapStateToProps = ({users, questions, signUser}) =>({ users, questions, signUser, loadingBar: signUser === null });
+const mapStateToProps = ({users, questions, signUser}) =>({ users, questions, signUser,});
 const mapDispatchToProps = dispatch => ({
   getInitialData: ()=>dispatch(getInitialData()),
   logoutAction: () => dispatch(logoutAction())
