@@ -9,6 +9,10 @@ Clone [This repository](https://github.com/nahimanajz/reactnd-project-would-you-
  npm install
  npm start 
 ```
+## To run the tests
+```
+ npm test -- --coverage
+```
 ##  Features
 - View all Questions on **homepage**
 - Add question

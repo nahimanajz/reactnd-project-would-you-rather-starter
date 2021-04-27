@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` Containers tests should  Show  answeredquestion  1`] = `undefined`;
+
+exports[` Containers tests should  Show answered question  1`] = `undefined`;
+
+exports[` Containers tests should  Show answered question  2`] = `undefined`;
+
+exports[` Containers tests should  Show question  1`] = `undefined`;
+
+exports[` Containers tests should  Show unanswered question  1`] = `undefined`;
+
+exports[` Containers tests should render Show question  1`] = `
+<Connect(ResultPage)
+  question={
+    Object {
+      "author": "tylermcginnis",
+      "id": "dadsu9284txda",
+      "optionOne": "Eat fish",
+      "optionTwo": "Eat a chicken",
+      "timestamp": 1467166872634,
+    }
+  }
+  signUser="tylermcginnis"
+  user="tylermcginnis"
+/>
+`;
+
+exports[` Containers tests should render Show question  2`] = `undefined`;
+
+exports[` Containers tests should render without Error 1`] = `undefined`;
+
+exports[`Containers tests should   question 1`] = `
+<Connect(AnswerQuestion)
+  question={
+    Object {
+      "author": "tylermcginnis",
+      "id": "dadsu9284txda",
+      "optionOne": "Eat fish",
+      "optionTwo": "Eat a chicken",
+      "timestamp": 1467166872634,
+    }
+  }
+  signUser="tylermcginnis"
+  user="tylermcginnis"
+/>
+`;
+
+exports[`Containers tests should  Show answered question 1`] = `undefined`;
+
+exports[`Containers tests should  Show unanswered question 1`] = `undefined`;
+
+exports[`Containers tests should  Show unanswered question 2`] = `
+<Connect(AnswerQuestion)
+  question={
+    Object {
+      "author": "tylermcginnis",
+      "id": "dadsu9284txda",
+      "optionOne": "Eat fish",
+      "optionTwo": "Eat a chicken",
+      "timestamp": 1467166872634,
+    }
+  }
+  signUser="tylermcginnis"
+  user="tylermcginnis"
+/>
+`;
+
+exports[`Containers tests should  render result page 1`] = `
+<Connect(AnswerQuestion)
+  question={
+    Object {
+      "author": "tylermcginnis",
+      "id": "dadsu9284txda",
+      "optionOne": "Eat fish",
+      "optionTwo": "Eat a chicken",
+      "timestamp": 1467166872634,
+    }
+  }
+  signUser="tylermcginnis"
+  user="tylermcginnis"
+/>
+`;
+
+exports[`Containers tests should render leaderboard without error 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`Containers tests should render without Error 1`] = `undefined`;

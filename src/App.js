@@ -35,8 +35,8 @@ class App extends React.Component {
           <Link className="item" to="/leaderboard">Leader Board</Link>
           {name.length ?(
             <>            
-              <Link className="item">Hello {name}</Link>
-              <Link className="item" onClick={(e)=>this.logoutHandler()}>Logout</Link>
+              <div className="item">Hello {name}</div>
+              <div className="item" onClick={(e)=>this.logoutHandler()}>Logout</div>
             </>
             
           ):<> </>}

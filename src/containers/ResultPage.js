@@ -1,4 +1,4 @@
-
+import React from 'react';
 import { connect } from 'react-redux';
 import PanelTitle from '../components/PanelTitle';
 function ResultPage(props){
@@ -19,7 +19,7 @@ function ResultPage(props){
                           <h2>Results: </h2>                         
                          
                           <div className={props.votedOne?"voted":"voted-by-other"}>
-                               {props.votedOne && <i class="fas fa-check"></i>}
+                               {props.votedOne && <i className="fas fa-check"></i>}
                                <h3 className="text-voted">Would you rather {optionOne.text}</h3> 
                              
                             <div className="wrap-result"> 
@@ -33,7 +33,7 @@ function ResultPage(props){
 
                           </div>                          
                           <div className={props.votedTwo?"voted":"voted-by-other"}>
-                          {props.votedTwo && <i class="fas fa-check"></i>}
+                          {props.votedTwo && <i className="fas fa-check"></i>}
                             <h3 className="text-voted">Would you rather {optionTwo.text}</h3>                         
                             
                             <div className="wrap-result"> 
@@ -60,7 +60,6 @@ function ResultPage(props){
     const votedOne = question.optionOne.votes.some((vote)=>vote === signUser);
     const votedTwo = question.optionTwo.votes.some((vote)=>vote === signUser);
     
-  
    return {
      question,
      user: users[question.author],
@@ -70,4 +69,5 @@ function ResultPage(props){
 
    }
   }
+  export {ResultPage}
 export default connect(mapStateToProps)(ResultPage);

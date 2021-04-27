@@ -1,7 +1,9 @@
+import React from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 
 function LeaderBoard(props){
+    console.log(props)
    
    let {signUser, users} = props;
    users = Object.values(users).sort((a, b)=> (Object.keys(b.answers).length + b.questions.length) - (Object.keys(a.answers).length + b.questions.length))
@@ -56,4 +58,5 @@ function mapStateToProps ({signUser, users}){
         signUser
     }
 }
+export{LeaderBoard};
 export default withRouter(connect(mapStateToProps)(LeaderBoard));

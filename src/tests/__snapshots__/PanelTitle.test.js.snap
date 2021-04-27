@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Panel title tests should render without error 1`] = `
+<div
+  className="panel-title"
+>
+  <h2>
+    some title
+  </h2>
+  <p>
+    some caption
+  </p>
+</div>
+`;
+
+exports[`should render without error 1`] = `
+<div
+  className="panel-title"
+>
+  <h2>
+    some title
+  </h2>
+  <p>
+    some caption
+  </p>
+</div>
+`;
