@@ -32,7 +32,10 @@ describe('Users test', () => {
             { type:types.SAVE_QUESTION_ANSWER,
                 authedUser:testData.user, qid, answer:testData.answer
             });
+           const votes =Object(newState[qid]).optionTwo.votes.concat(Object(newState[qid].optionOne.votes));
+           
         expect(newState[qid].id).toEqual(qid);
+        expect(votes.some(vote=> vote !== testData.user)).toBeTruthy();
      
     });
 })

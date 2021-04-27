@@ -202,4 +202,14 @@ export function _saveQuestionAnswer ({ authedUser, qid, answer }) {
 }
 
 // Todo: export data for testing purpose
-export {users, questions}
+const question = {
+      author:'tylermcginnis',
+      id:'dadsu9284txda', 
+      optionOne:'Eat fish', 
+      optionTwo:'Eat a chicken',
+        timestamp:1467166872634
+};
+const userAnswer = {
+  authedUser:'tylermcginnis', qid:'dadsu9284txda', answer:'Eat fish'
+}
+export {users, questions, question, userAnswer };
