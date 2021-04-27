@@ -20,17 +20,7 @@ export const questions =(state={}, action) =>{
         }  
         case constant.SAVE_QUESTION_ANSWER:
             const  {authedUser, qid,  answer} = action;
-            // console.log({
-            //     ...state,
-            //     [qid]:{
-            //         ...state[qid],
-            //         [answer]: {
-            //         ...state[qid][answer],
-            //         votes: state[qid][answer].votes.concat([authedUser])
-                    
-            //         }
-            //     }}
-            // )
+        
             return  {
                 ...state,
                 [qid]:{

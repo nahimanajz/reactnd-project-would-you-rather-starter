@@ -9,6 +9,7 @@ import { connect } from 'react-redux';
 import { getInitialData } from './actions/shared';
 import { logoutAction } from './actions/signInAction'
 import ShowQuestion from './containers/ShowQuestion';
+import LoadingBar from 'react-redux-loading-bar'
 
 
 class App extends React.Component {
@@ -25,7 +26,7 @@ class App extends React.Component {
 
     return (
       <BrowserRouter>   
-      
+      <LoadingBar />
       <header>
         {
       signUser.length &&(
@@ -35,8 +36,8 @@ class App extends React.Component {
           <Link className="item" to="/leaderboard">Leader Board</Link>
           {name.length ?(
             <>            
-              <Link className="item">Hello {name}</Link>
-              <Link className="item" onClick={(e)=>this.logoutHandler()}>Logout</Link>
+              <div className="item">Hello {name}</div>
+              <div className="item" onClick={(e)=>this.logoutHandler()}>Logout</div>
             </>
             
           ):<> </>}
@@ -56,7 +57,7 @@ class App extends React.Component {
     ) 
   }
 }
-const mapStateToProps = ({users, questions, signUser}) =>({ users, questions, signUser });
+const mapStateToProps = ({users, questions, signUser}) =>({ users, questions, signUser, loadingBar: signUser === null });
 const mapDispatchToProps = dispatch => ({
   getInitialData: ()=>dispatch(getInitialData()),
   logoutAction: () => dispatch(logoutAction())

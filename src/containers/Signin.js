@@ -46,5 +46,5 @@ class Signin extends React.Component{
     
 }
 const mapStateToProps =({users})=>({ users});
-
+export{Signin};
 export default connect(mapStateToProps)(Signin);

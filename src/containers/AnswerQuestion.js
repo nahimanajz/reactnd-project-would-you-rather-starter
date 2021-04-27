@@ -62,7 +62,7 @@ class AnswerQuestion extends Component {
     }
     
 }
-// const
+
 const mapDispatchToProps = dispatch => ({
     saveQuestionAnswer: (id, answer) => dispatch(saveQuestionAnswer(id, answer))
 })

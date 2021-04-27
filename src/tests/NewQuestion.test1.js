@@ -3,7 +3,6 @@ import { mount, shallow } from 'enzyme';
 import {NewQuestion} from "../containers/NewQuestion";
 import toJson from 'enzyme-to-json';
 import '../setupTests';
-
 const clickFn = jest.fn();
 const signedUser = 'tylermcginnis';
 it('NewQuestion Component renders without crashing', ()=>{
@@ -13,12 +12,7 @@ it('NewQuestion Component renders without crashing', ()=>{
     const title =  <h1>Would You Rather...</h1>;
     expect(toJson(wrapper)).toMatchSnapshot();
     expect(wrapper.find('button').first().text()).toEqual('Submit');
-    //expect(wrapper.state('signUser')).toEqual(null);
-    //const windowTitle = wrapper.find("label").text();
-    //expect(wrapper.contains(welcome)).toBe(true);
-   // expect(windowTitle).toEqual("Complete the question");
-    // expect(toJson(wrapper).contains(title)).toEqual(true);
-    // expect(toJson(wrapper).props().signedUser).toEqual(signedUser)
+   
 });
 
 describe('Expect save question button to have been called', ()=>{

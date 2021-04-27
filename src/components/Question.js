@@ -7,11 +7,11 @@ class Question extends Component{
    
     render(){
     const { questions, users, type } = this.props;
-
+    
   return (
     <>
         {questions.map((question)=>(
-            <div className="panel question" >
+            <div className="panel question" key={question.id}>
                 { users.map((user) => user.id === question.author &&(
                          <PanelTitle title={`${user.name} Asks`}  key={user.id} />
                     ))                    
@@ -49,4 +49,5 @@ class Question extends Component{
   )  
 }
 }
+export {Question as QuestionComponent}
 export default Question;

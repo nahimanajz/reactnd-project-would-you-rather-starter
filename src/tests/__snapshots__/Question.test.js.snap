@@ -1,0 +1,333 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` tests should render without error 1`] = `
+<div
+  className="panel-title"
+>
+  <h2>
+    some title
+  </h2>
+  <p>
+    some caption
+  </p>
+</div>
+`;
+
+exports[`Panel title tests should render without error 1`] = `
+<div
+  className="panel-title"
+>
+  <h2>
+    some title
+  </h2>
+  <p>
+    some caption
+  </p>
+</div>
+`;
+
+exports[`Question component tests should render without Error 1`] = `
+<Fragment>
+  <div
+    className="panel question"
+    key="8xf0y6ziyjabvozdd253nd"
+  >
+    <PanelTitle
+      key="sarahedo"
+      title="Sarah Edo Asks"
+    />
+    <div
+      className="question-detail"
+    >
+      <div
+        className="user-icon"
+      >
+        <div
+          alt="user icon"
+          className="user-icon"
+          key="sarahedo"
+          style={
+            Object {
+              "backgroundImage": "url(/icons/user1.jpg)",
+            }
+          }
+        />
+      </div>
+      <div
+        className="question-text"
+      >
+        <h2>
+          Would You rather ...
+        </h2>
+        <p>
+           ...
+          ave horrible s
+          ... 
+        </p>
+        <Link
+          to="/questions/8xf0y6ziyjabvozdd253nd"
+        >
+          <button
+            className="secondary-light"
+          >
+            View Poll 
+          </button>
+        </Link>
+      </div>
+    </div>
+  </div>
+  <div
+    className="panel question"
+    key="6ni6ok3ym7mf1p33lnez"
+  >
+    <PanelTitle
+      key="johndoe"
+      title="John Doe Asks"
+    />
+    <div
+      className="question-detail"
+    >
+      <div
+        className="user-icon"
+      >
+        <div
+          alt="user icon"
+          className="user-icon"
+          key="johndoe"
+          style={
+            Object {
+              "backgroundImage": "url(/icons/user3.jpg)",
+            }
+          }
+        />
+      </div>
+      <div
+        className="question-text"
+      >
+        <h2>
+          Would You rather ...
+        </h2>
+        <p>
+           ...
+          ecome a superh
+          ... 
+        </p>
+        <Link
+          to="/questions/6ni6ok3ym7mf1p33lnez"
+        >
+          <button
+            className="secondary-light"
+          >
+            View Poll 
+          </button>
+        </Link>
+      </div>
+    </div>
+  </div>
+  <div
+    className="panel question"
+    key="am8ehyc8byjqgar0jgpub9"
+  >
+    <PanelTitle
+      key="sarahedo"
+      title="Sarah Edo Asks"
+    />
+    <div
+      className="question-detail"
+    >
+      <div
+        className="user-icon"
+      >
+        <div
+          alt="user icon"
+          className="user-icon"
+          key="sarahedo"
+          style={
+            Object {
+              "backgroundImage": "url(/icons/user1.jpg)",
+            }
+          }
+        />
+      </div>
+      <div
+        className="question-text"
+      >
+        <h2>
+          Would You rather ...
+        </h2>
+        <p>
+           ...
+          e telekinetic
+          ... 
+        </p>
+        <Link
+          to="/questions/am8ehyc8byjqgar0jgpub9"
+        >
+          <button
+            className="secondary-light"
+          >
+            View Poll 
+          </button>
+        </Link>
+      </div>
+    </div>
+  </div>
+  <div
+    className="panel question"
+    key="loxhs1bqm25b708cmbf3g"
+  >
+    <PanelTitle
+      key="tylermcginnis"
+      title="Tyler McGinnis Asks"
+    />
+    <div
+      className="question-detail"
+    >
+      <div
+        className="user-icon"
+      >
+        <div
+          alt="user icon"
+          className="user-icon"
+          key="tylermcginnis"
+          style={
+            Object {
+              "backgroundImage": "url(/icons/user2.jpg)",
+            }
+          }
+        />
+      </div>
+      <div
+        className="question-text"
+      >
+        <h2>
+          Would You rather ...
+        </h2>
+        <p>
+           ...
+          e a front-end 
+          ... 
+        </p>
+        <Link
+          to="/questions/loxhs1bqm25b708cmbf3g"
+        >
+          <button
+            className="secondary-light"
+          >
+            View Poll 
+          </button>
+        </Link>
+      </div>
+    </div>
+  </div>
+  <div
+    className="panel question"
+    key="vthrdm985a262al8qx3do"
+  >
+    <PanelTitle
+      key="tylermcginnis"
+      title="Tyler McGinnis Asks"
+    />
+    <div
+      className="question-detail"
+    >
+      <div
+        className="user-icon"
+      >
+        <div
+          alt="user icon"
+          className="user-icon"
+          key="tylermcginnis"
+          style={
+            Object {
+              "backgroundImage": "url(/icons/user2.jpg)",
+            }
+          }
+        />
+      </div>
+      <div
+        className="question-text"
+      >
+        <h2>
+          Would You rather ...
+        </h2>
+        <p>
+           ...
+          ind $50 yourse
+          ... 
+        </p>
+        <Link
+          to="/questions/vthrdm985a262al8qx3do"
+        >
+          <button
+            className="secondary-light"
+          >
+            View Poll 
+          </button>
+        </Link>
+      </div>
+    </div>
+  </div>
+  <div
+    className="panel question"
+    key="xj352vofupe1dqz9emx13r"
+  >
+    <PanelTitle
+      key="johndoe"
+      title="John Doe Asks"
+    />
+    <div
+      className="question-detail"
+    >
+      <div
+        className="user-icon"
+      >
+        <div
+          alt="user icon"
+          className="user-icon"
+          key="johndoe"
+          style={
+            Object {
+              "backgroundImage": "url(/icons/user3.jpg)",
+            }
+          }
+        />
+      </div>
+      <div
+        className="question-text"
+      >
+        <h2>
+          Would You rather ...
+        </h2>
+        <p>
+           ...
+          rite JavaScrip
+          ... 
+        </p>
+        <Link
+          to="/questions/xj352vofupe1dqz9emx13r"
+        >
+          <button
+            className="secondary-light"
+          >
+            View Poll 
+          </button>
+        </Link>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`Question component tests should render without error 1`] = `
+<div
+  className="panel-title"
+>
+  <h2>
+    some title
+  </h2>
+  <p>
+    some caption
+  </p>
+</div>
+`;

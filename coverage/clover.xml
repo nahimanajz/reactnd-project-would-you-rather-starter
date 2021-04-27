@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1619564804627" clover="3.2.0">
+  <project timestamp="1619564804628" name="All files">
+    <metrics statements="178" coveredstatements="84" conditionals="55" coveredconditionals="32" methods="100" coveredmethods="24" elements="333" coveredelements="140" complexity="0" loc="178" ncloc="178" packages="8" files="23" classes="23"/>
+    <package name="src">
+      <metrics statements="12" coveredstatements="8" conditionals="4" coveredconditionals="3" methods="10" coveredmethods="4"/>
+      <file name="App.js" path="/Volumes/D/Coding/AAL-Udacity/reactnd-project-would-you-rather-starter/src/App.js">
+        <metrics statements="11" coveredstatements="7" conditionals="4" coveredconditionals="3" methods="10" coveredmethods="4"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="59" count="2" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+      </file>
+      <file name="setupTests.js" path="/Volumes/D/Coding/AAL-Udacity/reactnd-project-would-you-rather-starter/src/setupTests.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="8" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.actions">
+      <metrics statements="22" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="17" coveredmethods="1"/>
+      <file name="questions.js" path="/Volumes/D/Coding/AAL-Udacity/reactnd-project-would-you-rather-starter/src/actions/questions.js">
+        <metrics statements="13" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="0"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+      </file>
+      <file name="shared.js" path="/Volumes/D/Coding/AAL-Udacity/reactnd-project-would-you-rather-starter/src/actions/shared.js">
+        <metrics statements="5" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="signInAction.js" path="/Volumes/D/Coding/AAL-Udacity/reactnd-project-would-you-rather-starter/src/actions/signInAction.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="users.js" path="/Volumes/D/Coding/AAL-Udacity/reactnd-project-would-you-rather-starter/src/actions/users.js">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="6" coveredstatements="6" conditionals="8" coveredconditionals="7" methods="5" coveredmethods="5"/>
+      <file name="PanelTitle.js" path="/Volumes/D/Coding/AAL-Udacity/reactnd-project-would-you-rather-starter/src/components/PanelTitle.js">
+        <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+      <file name="Question.js" path="/Volumes/D/Coding/AAL-Udacity/reactnd-project-would-you-rather-starter/src/components/Question.js">
+        <metrics statements="5" coveredstatements="5" conditionals="6" coveredconditionals="5" methods="4" coveredmethods="4"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="15" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="18" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="src.constants">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.js" path="/Volumes/D/Coding/AAL-Udacity/reactnd-project-would-you-rather-starter/src/constants/index.js">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="7" count="8" type="stmt"/>
+        <line num="9" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.containers">
+      <metrics statements="80" coveredstatements="21" conditionals="28" coveredconditionals="8" methods="44" coveredmethods="5"/>
+      <file name="AnswerQuestion.js" path="/Volumes/D/Coding/AAL-Udacity/reactnd-project-would-you-rather-starter/src/containers/AnswerQuestion.js">
+        <metrics statements="18" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="8" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="66" count="3" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+      </file>
+      <file name="HomePage.js" path="/Volumes/D/Coding/AAL-Udacity/reactnd-project-would-you-rather-starter/src/containers/HomePage.js">
+        <metrics statements="11" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="10" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+      </file>
+      <file name="LeaderBoard.js" path="/Volumes/D/Coding/AAL-Udacity/reactnd-project-would-you-rather-starter/src/containers/LeaderBoard.js">
+        <metrics statements="8" coveredstatements="3" conditionals="6" coveredconditionals="0" methods="4" coveredmethods="1"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
+        <line num="9" count="10" type="stmt"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+      </file>
+      <file name="NewQuestion.js" path="/Volumes/D/Coding/AAL-Udacity/reactnd-project-would-you-rather-starter/src/containers/NewQuestion.js">
+        <metrics statements="15" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="9" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="62" count="2" type="stmt"/>
+      </file>
+      <file name="ResultPage.js" path="/Volumes/D/Coding/AAL-Udacity/reactnd-project-would-you-rather-starter/src/containers/ResultPage.js">
+        <metrics statements="11" coveredstatements="7" conditionals="10" coveredconditionals="5" methods="4" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="58" count="3" type="stmt"/>
+        <line num="59" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+      </file>
+      <file name="ShowQuestion.js" path="/Volumes/D/Coding/AAL-Udacity/reactnd-project-would-you-rather-starter/src/containers/ShowQuestion.js">
+        <metrics statements="7" coveredstatements="3" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="1"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+      </file>
+      <file name="Signin.js" path="/Volumes/D/Coding/AAL-Udacity/reactnd-project-would-you-rather-starter/src/containers/Signin.js">
+        <metrics statements="10" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="2"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="48" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.reducers">
+      <metrics statements="18" coveredstatements="18" conditionals="14" coveredconditionals="14" methods="3" coveredmethods="3"/>
+      <file name="index.js" path="/Volumes/D/Coding/AAL-Udacity/reactnd-project-would-you-rather-starter/src/reducers/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="questions.js" path="/Volumes/D/Coding/AAL-Udacity/reactnd-project-would-you-rather-starter/src/reducers/questions.js">
+        <metrics statements="8" coveredstatements="8" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="6" type="cond" truecount="4" falsecount="0"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+      </file>
+      <file name="signUser.js" path="/Volumes/D/Coding/AAL-Udacity/reactnd-project-would-you-rather-starter/src/reducers/signUser.js">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="3" count="5" type="cond" truecount="3" falsecount="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+      </file>
+      <file name="users.js" path="/Volumes/D/Coding/AAL-Udacity/reactnd-project-would-you-rather-starter/src/reducers/users.js">
+        <metrics statements="6" coveredstatements="6" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="6" type="cond" truecount="4" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.tests">
+      <metrics statements="5" coveredstatements="4" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="custom_render.js" path="/Volumes/D/Coding/AAL-Udacity/reactnd-project-would-you-rather-starter/src/tests/custom_render.js">
+        <metrics statements="5" coveredstatements="4" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="28" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="19" coveredmethods="5"/>
+      <file name="_DATA.js" path="/Volumes/D/Coding/AAL-Udacity/reactnd-project-would-you-rather-starter/src/utils/_DATA.js">
+        <metrics statements="22" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="4"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="37" count="8" type="stmt"/>
+        <line num="119" count="0" type="stmt"/>
+        <line num="123" count="1" type="stmt"/>
+        <line num="124" count="1" type="stmt"/>
+        <line num="129" count="1" type="stmt"/>
+        <line num="130" count="1" type="stmt"/>
+        <line num="135" count="0" type="stmt"/>
+        <line num="151" count="0" type="stmt"/>
+        <line num="152" count="0" type="stmt"/>
+        <line num="153" count="0" type="stmt"/>
+        <line num="155" count="0" type="stmt"/>
+        <line num="156" count="0" type="stmt"/>
+        <line num="161" count="0" type="stmt"/>
+        <line num="169" count="0" type="stmt"/>
+        <line num="175" count="0" type="stmt"/>
+        <line num="176" count="0" type="stmt"/>
+        <line num="177" count="0" type="stmt"/>
+        <line num="188" count="0" type="stmt"/>
+        <line num="199" count="0" type="stmt"/>
+        <line num="205" count="8" type="stmt"/>
+        <line num="212" count="8" type="stmt"/>
+      </file>
+      <file name="api.js" path="/Volumes/D/Coding/AAL-Udacity/reactnd-project-would-you-rather-starter/src/utils/api.js">
+        <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="1"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
