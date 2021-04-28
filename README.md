@@ -28,13 +28,17 @@ npm install
 ```
 yarn start
 
+`` (Enjoy The Game)[https://would-you-rather-jz.netlify.app] ```
+
 ## About Author
 I'm Full Stack web developer specialized in 
 - PHP/Laravel
 - Javascript (React Js, NodeJS and  Jquery)
 - HTML5 and CSS3
 I can also work on Mobile App by Java and Flutter
+
+### Reacts Apps I worked on so far
+ - Find books from google books[here](https://myreadsz.netlify.app)
+ - Manage your debts, credits and your expenses by(imanage)[https://imanage.netlify.app/]
+
 [More about Janvier](https://janvierdev.netlify.app/)
-
-`` Enjoy The Game ```
-

@@ -2,3 +2,6 @@
 ./frontend/src/images
 node_modules
 coverage
+
+# Local Netlify folder
+.netlify
