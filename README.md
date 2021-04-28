@@ -1,29 +1,40 @@
-# Would you Rather Game
-As a result of this Game you can play it by chosing either option one or second
-from question listed on __HomePage__
-## Installation Guide
-Clone [This repository](https://github.com/nahimanajz/reactnd-project-would-you-rather-starter.git) 
+# Would You Rather Project
 
+`Would You Rather?` is a web application that lets a user play the `Would You Rather?` game.
 
-```
- npm install
- npm start 
-```
-## To run the tests
-> To test
-```
-jest 
-```
-> To see the test coverages
-```
- npm test -- --coverage 
+User should be able to create a question, answer the created question whether created by him/her or created by another user. In addition to that, a user will be able to see scoring chart, where users are ranked based on number of question they created and the ones they answered
+
+## Project Setup
+
+- Clone the repo and install all the dependencies:
 
 ```
-##  Features
-- View all Questions on **homepage**
-- Add question
-- Vote a question
-- View votes 
+git clone git@github.com:niyobobo/ReactND-WouldYouRather.git
+```
 
-``Enjoy The Game``
+- Change the directory to the repository
+
+````
+cd ReactND-WouldYouRather
+````
+- Install all project dependencies by one of the following commands:
+```
+yarn install
+```
+```
+npm install
+```
+- Start the application
+```
+yarn start
+
+## About Author
+I'm Full Stack web developer specialized in 
+- PHP/Laravel
+- Javascript (React Js, NodeJS and  Jquery)
+- HTML5 and CSS3
+I can also work on Mobile App by Java and Flutter
+[More about Janvier](https://janvierdev.netlify.app/)
+
+`` Enjoy The Game ```
 
