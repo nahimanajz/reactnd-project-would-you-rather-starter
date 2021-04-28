@@ -15,7 +15,7 @@ Clone [This repository](https://github.com/nahimanajz/reactnd-project-would-you-
 jest 
 ```
 > To see the test coverages
-````
+```
  npm test -- --coverage 
 
 ```
