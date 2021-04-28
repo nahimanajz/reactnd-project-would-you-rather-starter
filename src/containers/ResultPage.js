@@ -69,5 +69,5 @@ function ResultPage(props){
 
    }
   }
-  export {ResultPage}
+
 export default connect(mapStateToProps)(ResultPage);

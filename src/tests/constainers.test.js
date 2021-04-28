@@ -3,14 +3,17 @@ import { mount, shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
 import { Signin } from '../containers/Signin';
 import{ users, question,questions } from '../utils/_DATA';
-import {ShowQuestion} from '../containers/ShowQuestion';
+import ShowQuestion from '../containers/ShowQuestion';
 import '../setupTests';
-import { ResultPage } from '../containers/ResultPage';
+import  ResultPage  from '../containers/ResultPage';
 import  LeaderBoard  from '../containers/LeaderBoard';
+import NewQuestion from '../containers/NewQuestion';
+import AnswerQuestion from '../containers/AnswerQuestion';
 import {BrowserRouter as Router} from 'react-router-dom';
 import configureStore from 'redux-mock-store';
 import renderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
+import HomePage from '../containers/HomePage';
 
 const mockStore = configureStore([]);
 
@@ -20,6 +23,7 @@ const ComponentTest =(component) =>  expect(toJson(component)).toMatchSnapshot()
 describe('Containers tests', () => {
     let store;
     let MyComponent;
+    
     beforeEach(() =>{
         store = mockStore({
             users, 
@@ -27,16 +31,18 @@ describe('Containers tests', () => {
             questions
         });
         store.dispatch = jest.fn();
-        MyComponent = renderer.create(
-            <Provider store={store}>
-                <Router>
-                     <LeaderBoard />
-                </Router>
-            </Provider>
-        );
+        MyComponent =(Container) =>{
+            renderer.create(
+                <Provider store={store}>
+                    <Router>
+                            {Container}
+                    </Router>
+                </Provider>
+            );
+         } 
     });
-    it('should render leaderboard without error', () => {
-        expect(MyComponent.toJson()).toMatchSnapshot();
+    it('should render leaderboard without error', () => {       
+       ComponentTest(MyComponent(<LeaderBoard/>))
     })
     
     it('should render without Error', () =>{
@@ -52,20 +58,22 @@ describe('Containers tests', () => {
         ComponentTest(shallow(<ShowQuestion {...props}/>));
     })
     it('should  render result page', () =>{
-        const signUser = 'tylermcginnis';
-        const fetchedQuestion  = questions['xj352vofupe1dqz9emx13r'];
-        
-        const props = {
-            question:fetchedQuestion, 
-            user:users['tylermcginnis'], 
-            signUser, 
-            votedOne: fetchedQuestion.optionOne.votes.some((vote)=>vote === signUser),
-            votedTwo: fetchedQuestion.optionTwo.votes.some((vote)=>vote === signUser)
-        }
-         const component = shallow(<ResultPage {...props}/>);
-         expect(toJson(component.props().question)).toBeUndefined();
-         expect(toJson(component.props().signUser)).toBeUndefined();
-         expect(toJson(component.props().user)).toBeUndefined();
+        const props = {question:{id:'xj352vofupe1dqz9emx13r'}}
+         ComponentTest(MyComponent(<ResultPage {...props}/>))
+    })
+    it('should render new question form form withour error', () =>{
+        ComponentTest(MyComponent(<NewQuestion />))
+    })
+    it('should render homepage', () =>{        
+        ComponentTest(MyComponent(<HomePage/>))
+    })
+    it('should render Signin with ', () =>{        
+        ComponentTest(MyComponent(<Signin />))
+    })
+    it('Should render Answer question', () =>{  
+        const props = {question: questions['8xf0y6ziyjabvozdd253nd'],user:'tylermcginnis' };
+        ComponentTest(MyComponent(<AnswerQuestion {...props}/>))
+
     })
     
 })

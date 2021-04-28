@@ -30,6 +30,14 @@ exports[` Containers tests should render Show question  2`] = `undefined`;
 
 exports[` Containers tests should render without Error 1`] = `undefined`;
 
+exports[`Containers tests Answer question 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`Containers tests Should render Answer question 1`] = `undefined`;
+
 exports[`Containers tests should   question 1`] = `
 <Connect(AnswerQuestion)
   question={
@@ -82,10 +90,16 @@ exports[`Containers tests should  render result page 1`] = `
 />
 `;
 
+exports[`Containers tests should render homepage 1`] = `undefined`;
+
 exports[`Containers tests should render leaderboard without error 1`] = `
 <ContextConsumer>
   <Component />
 </ContextConsumer>
 `;
+
+exports[`Containers tests should render new question 1`] = `undefined`;
+
+exports[`Containers tests should render new question form form withour error 1`] = `undefined`;
 
 exports[`Containers tests should render without Error 1`] = `undefined`;

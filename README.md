@@ -11,7 +11,8 @@ Clone [This repository](https://github.com/nahimanajz/reactnd-project-would-you-
 ```
 ## To run the tests
 ```
- npm test -- --coverage
+- jest  **To test**
+ npm test -- --coverage **To see the test coverages**
 ```
 ##  Features
 - View all Questions on **homepage**

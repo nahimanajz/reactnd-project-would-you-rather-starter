@@ -35,5 +35,5 @@ function mapStateToProps({signUser, users, questions}, ownProps) {
          isAnswered: isQuestionAnswered(optionTwo, optionOne, signUser)
         };
 }
-export{ShowQuestion}
+
 export default withRouter(connect(mapStateToProps)(ShowQuestion));

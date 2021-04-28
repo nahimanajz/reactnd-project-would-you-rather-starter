@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">73.68% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>0/19</span>
+                <span class='fraction'>14/19</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">50% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/4</span>
+                <span class='fraction'>2/4</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">60% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/10</span>
+                <span class='fraction'>6/10</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">90.91% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>0/11</span>
+                <span class='fraction'>10/11</span>
             </div>
         
             
@@ -55,7 +55,7 @@
             Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
         </p>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line medium'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -122,24 +122,24 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -161,10 +161,10 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -180,24 +180,24 @@ import { isQuestionAnswered } from '../utils/api';
 import Signin from './Signin';
 &nbsp;
 class HomePage extends Component {
-    state = <span class="cstat-no" title="statement not covered" >{</span>
+    state = {
         toggle: false
     }
 &nbsp;
-    showAnswered =<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >()</span>=&gt;<span class="cstat-no" title="statement not covered" >this.setState(<span class="fstat-no" title="function not covered" >()</span> =&gt; (<span class="cstat-no" title="statement not covered" >{ toggle: true })</span>)</span></span>
-    hideAnswered =<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >()</span>=&gt;<span class="cstat-no" title="statement not covered" >this.setState(<span class="fstat-no" title="function not covered" >()</span> =&gt; (<span class="cstat-no" title="statement not covered" >{ toggle: false })</span>)</span></span>
+    showAnswered =<span class="fstat-no" title="function not covered" >()</span>=&gt;<span class="cstat-no" title="statement not covered" >this.setState(<span class="fstat-no" title="function not covered" >()</span> =&gt; (<span class="cstat-no" title="statement not covered" >{ toggle: true })</span>)</span>
+    hideAnswered =<span class="fstat-no" title="function not covered" >()</span>=&gt;<span class="cstat-no" title="statement not covered" >this.setState(<span class="fstat-no" title="function not covered" >()</span> =&gt; (<span class="cstat-no" title="statement not covered" >{ toggle: false })</span>)</span>
 &nbsp;
-<span class="fstat-no" title="function not covered" >    re</span>nder() {
-    const { toggle } = <span class="cstat-no" title="statement not covered" >this.state;</span>
-    const {answeredQuestion,notAnsweredQuestion, users, signUser }= <span class="cstat-no" title="statement not covered" >this.props;</span>
+    render() {
+    const { toggle } = this.state;
+    const {answeredQuestion,notAnsweredQuestion, users, signUser }= this.props;
    
   
      
-<span class="cstat-no" title="statement not covered" >    if(!signUser.length){</span>
+    <span class="missing-if-branch" title="if path not taken" >I</span>if(!signUser.length){
 <span class="cstat-no" title="statement not covered" >      return &lt;Signin /&gt;</span>
    }
 &nbsp;
-<span class="cstat-no" title="statement not covered" >    return( </span>
+    return( 
 &nbsp;
         &lt;div className="panel-lg w-md"&gt; 
             &lt;div className="leader-title"&gt;
@@ -209,7 +209,7 @@ class HomePage extends Component {
                     Answered Question
                 &lt;/div&gt; 
             &lt;/div&gt;  
-              {  toggle ? &lt;Question questions={answeredQuestion} users={Object.values(users)}  /&gt;  :
+              {  toggle ? <span class="branch-0 cbranch-no" title="branch not covered" >&lt;Question questions={answeredQuestion} users={Object.values(users)}  /&gt; </span> :
                  &lt;Question questions={notAnsweredQuestion} users={Object.values(users)} /&gt;
              }
         &lt;/div&gt;
@@ -218,11 +218,11 @@ class HomePage extends Component {
 }
 }
 &nbsp;
-function <span class="fstat-no" title="function not covered" >mapStateToProps(</span>{questions, users, signUser}){
- const answeredQuestion = <span class="cstat-no" title="statement not covered" >Object.values(questions).filter(<span class="fstat-no" title="function not covered" >({</span>optionOne, optionTwo}) =&gt;  <span class="cstat-no" title="statement not covered" >isQuestionAnswered(optionOne,optionTwo, signUser))</span>.sort(<span class="fstat-no" title="function not covered" >(a</span>, b)=&gt;<span class="cstat-no" title="statement not covered" >b.timestamp - a.timestamp)</span></span>
- const notAnsweredQuestion = <span class="cstat-no" title="statement not covered" >Object.values(questions).filter(<span class="fstat-no" title="function not covered" >({</span>optionOne, optionTwo}) =&gt;  <span class="cstat-no" title="statement not covered" >!isQuestionAnswered(optionOne,optionTwo, signUser))</span>.sort(<span class="fstat-no" title="function not covered" >(a</span>, b)=&gt;<span class="cstat-no" title="statement not covered" >b.timestamp - a.timestamp)</span></span>
+function mapStateToProps({questions, users, signUser}){
+ const answeredQuestion = Object.values(questions).filter(({optionOne, optionTwo}) =&gt;  isQuestionAnswered(optionOne,optionTwo, signUser)).sort((a, b)=&gt;b.timestamp - a.timestamp)
+ const notAnsweredQuestion = Object.values(questions).filter(({optionOne, optionTwo}) =&gt;  !isQuestionAnswered(optionOne,optionTwo, signUser)).sort((a, b)=&gt;b.timestamp - a.timestamp)
 &nbsp;
-<span class="cstat-no" title="statement not covered" >    return {</span>
+    return {
         answeredQuestion,
         notAnsweredQuestion,
          users, 
@@ -238,7 +238,7 @@ export default connect(mapStateToProps)(HomePage);</pre></td></tr></table></pre>
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
-                at Wed Apr 28 2021 02:12:59 GMT+0200 (Central Africa Time)
+                at Wed Apr 28 2021 03:53:20 GMT+0200 (Central Africa Time)
             </div>
         </div>
         <script src="../../prettify.js"></script>
