@@ -10,9 +10,14 @@ Clone [This repository](https://github.com/nahimanajz/reactnd-project-would-you-
  npm start 
 ```
 ## To run the tests
+> To test
 ```
-- jest  **To test**
- npm test -- --coverage **To see the test coverages**
+jest 
+```
+> To see the test coverages
+```
+ npm test -- --coverage 
+
 ```
 ##  Features
 - View all Questions on **homepage**
