@@ -6,8 +6,8 @@ import{ users, question,questions } from '../utils/_DATA';
 import {ShowQuestion} from '../containers/ShowQuestion';
 import '../setupTests';
 import { ResultPage } from '../containers/ResultPage';
-import { LeaderBoard } from '../containers/LeaderBoard';
-
+import  LeaderBoard  from '../containers/LeaderBoard';
+import {BrowserRouter as Router} from 'react-router-dom';
 import configureStore from 'redux-mock-store';
 import renderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
@@ -16,6 +16,7 @@ const mockStore = configureStore([]);
 
 
 const ComponentTest =(component) =>  expect(toJson(component)).toMatchSnapshot();
+
 describe('Containers tests', () => {
     let store;
     let MyComponent;
@@ -26,9 +27,11 @@ describe('Containers tests', () => {
             questions
         });
         store.dispatch = jest.fn();
-        MyComponent = mount(
+        MyComponent = renderer.create(
             <Provider store={store}>
-                <LeaderBoard />
+                <Router>
+                     <LeaderBoard />
+                </Router>
             </Provider>
         );
     });

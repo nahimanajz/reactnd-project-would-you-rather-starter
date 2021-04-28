@@ -9,8 +9,6 @@ import { connect } from 'react-redux';
 import { getInitialData } from './actions/shared';
 import { logoutAction } from './actions/signInAction'
 import ShowQuestion from './containers/ShowQuestion';
-import LoadingBar from 'react-redux-loading-bar'
-
 
 class App extends React.Component {
    componentDidMount() {
@@ -57,7 +55,7 @@ class App extends React.Component {
     ) 
   }
 }
-const mapStateToProps = ({users, questions, signUser}) =>({ users, questions, signUser,});
+const mapStateToProps = ({users, questions, signUser}) =>({ users, questions, signUser});
 const mapDispatchToProps = dispatch => ({
   getInitialData: ()=>dispatch(getInitialData()),
   logoutAction: () => dispatch(logoutAction())

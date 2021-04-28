@@ -58,5 +58,5 @@ function mapStateToProps ({signUser, users}){
         signUser
     }
 }
-export{LeaderBoard};
+
 export default withRouter(connect(mapStateToProps)(LeaderBoard));
