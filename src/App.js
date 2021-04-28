@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { BrowserRouter, Link, Route } from 'react-router-dom';
+import { BrowserRouter, Link, Redirect, Route } from 'react-router-dom';
 import NewQuestion from './containers/NewQuestion'
 import LeaderBoard from './containers/LeaderBoard';
 
@@ -16,6 +16,7 @@ class App extends React.Component {
    }
    logoutHandler() {
     this.props.logoutAction();
+   
    }
   render() {
     const {users,signUser } = this.props;

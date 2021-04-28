@@ -234,6 +234,11 @@ label{  padding:5px;    margin: 10px; }
 .show-or-hide{ 
   display:none;
 }
+.not-found{
+  font-weight: 900;
+  font-size:68px;
+  color: var(--default)
+}
 
 @keyframes fade {
   0% {
